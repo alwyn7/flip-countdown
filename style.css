@@ -1,0 +1,19 @@
+.countdown-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .countdown-message h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #countdown {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .countdown-ended-message {
+    font-size: 24px;
+    margin-top: 20px;
+  }
