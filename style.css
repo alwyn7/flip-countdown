@@ -1,11 +1,13 @@
-html { height: 100%; }
-body { 
-  min-height: 100%;
+html, body {
+  height: 100%;
+  overflow: hidden; /* This will hide the scrollbar */
+  margin: 0; /* Ensure there's no default margin */
+  padding: 0; /* Ensure there's no default padding */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #ADD8E6; /*bg color*/
+  background: #ADD8E6; /* Light blue color */
   font-family: Arial, sans-serif; /* Change to your desired font */
 }
 
